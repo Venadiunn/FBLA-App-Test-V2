@@ -15,9 +15,7 @@ class AuthGate extends ConsumerWidget {
       stream: auth.authStateChanges(),
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
-          return const Scaffold(
-            body: Center(child: CircularProgressIndicator()),
-          );
+          return const Center(child: CircularProgressIndicator());
         }
         // If logged in, show child (the app shell); otherwise route handling will redirect to /login
         return child;
