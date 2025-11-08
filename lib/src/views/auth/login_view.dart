@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 import '../../services/auth_service.dart';
 
 class LoginView extends ConsumerStatefulWidget {
@@ -82,7 +83,7 @@ class _LoginViewState extends ConsumerState<LoginView> {
               ),
               const SizedBox(height: 12),
               TextButton(
-                onPressed: () => Navigator.of(context).pushNamed('/signup'),
+                onPressed: () => context.push('/signup'),
                 child: const Text('Create account'),
               ),
             ],
