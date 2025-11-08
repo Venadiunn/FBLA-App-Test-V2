@@ -1,0 +1,13 @@
+{
+    // Cursor privacy and inline settings (edit as needed)
+    "cursor.upload.exclude": [
+        "**/secrets/**",
+        "**/.env",
+        "**/android/**",
+        "**/ios/**"
+    ],
+    "cursor.experimental.enableInline": true,
+    "files.exclude": {
+        "**/.git": true
+    }
+}

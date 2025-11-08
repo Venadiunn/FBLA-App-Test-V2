@@ -1,0 +1,17 @@
+[
+    {
+        "key": "cmd+alt+e",
+        "command": "cursor.explainSelection",
+        "when": "editorTextFocus && editorHasSelection"
+    },
+    {
+        "key": "cmd+alt+g",
+        "command": "cursor.generateTests",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+alt+r",
+        "command": "cursor.refactor",
+        "when": "editorTextFocus"
+    }
+]

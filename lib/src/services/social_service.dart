@@ -1,0 +1,7 @@
+import 'package:share_plus/share_plus.dart';
+
+class SocialService {
+  Future<void> shareText(String text, {String? subject}) async {
+    await Share.share(text, subject: subject);
+  }
+}

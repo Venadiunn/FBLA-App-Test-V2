@@ -1,0 +1,1 @@
+Repository layer: implement Firestore-backed repositories here. The in-memory repository `in_memory_repository.dart` provides a working demo; replace with real implementations that use `cloud_firestore` and `firebase_storage` for production.
